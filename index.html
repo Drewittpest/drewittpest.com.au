@@ -1,166 +1,43 @@
 <!doctype html>
 <html lang="en-AU">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Drewitt Pest Management & Property Maintenance | Starting Soon</title>
-  <meta name="description" content="Drewitt Pest Management & Property Maintenance — pest management, timber pest inspections and property maintenance across the Hastings and Camden Haven areas.">
-
-  <style>
-    :root {
-      --cream: #f3e7cf;
-      --tan: #d4ad6a;
-      --light: #fffaf0;
-      --ink: #111111;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--ink);
-      background: linear-gradient(135deg, #f8f1e4 0%, var(--cream) 100%);
-    }
-
-    main {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 30px 18px;
-    }
-
-    .card {
-      width: min(980px, 100%);
-      background: rgba(255, 250, 240, 0.97);
-      border: 3px solid var(--ink);
-      border-radius: 24px;
-      padding: 34px;
-      text-align: center;
-      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.14);
-    }
-
-    .logo {
-      width: min(390px, 80vw);
-      height: auto;
-      display: block;
-      margin: 0 auto 18px;
-    }
-
-    h1 {
-      margin: 4px 0 8px;
-      font-size: clamp(2rem, 5vw, 4rem);
-      letter-spacing: 0.08em;
-    }
-
-    .soon {
-      display: inline-block;
-      background: var(--ink);
-      color: var(--tan);
-      padding: 10px 22px;
-      border-radius: 999px;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      margin: 8px 0 22px;
-    }
-
-    .services {
-      font-size: clamp(1.05rem, 2.4vw, 1.35rem);
-      font-weight: 700;
-      line-height: 1.55;
-    }
-
-    .area {
-      max-width: 760px;
-      margin: 14px auto;
-      font-size: 1.05rem;
-      line-height: 1.6;
-    }
-
-    .enquiries {
-      font-weight: 800;
-      font-size: 1.2rem;
-      margin-top: 22px;
-    }
-
-    .buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
-      margin: 18px 0 8px;
-    }
-
-    .buttons a {
-      color: #ffffff;
-      background: var(--ink);
-      text-decoration: none;
-      font-weight: 800;
-      padding: 14px 20px;
-      border-radius: 10px;
-      border: 2px solid var(--ink);
-    }
-
-    .buttons a:hover {
-      background: var(--tan);
-      color: var(--ink);
-    }
-
-    .tag {
-      margin: 26px 0 0;
-      font-weight: 800;
-      font-size: 1.15rem;
-    }
-
-    footer {
-      margin-top: 20px;
-      font-size: 0.9rem;
-      opacity: 0.72;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drewitt Pest Management & Property Maintenance | Open for Business</title>
+<meta name="description" content="Drewitt Pest Management & Property Maintenance is open for business across Port Macquarie, Lake Cathie, Wauchope and Camden Haven. Call Scott on 0448 824 578.">
+<style>
+:root { --cream:#F8F3E8; --tan:#B28D55; --ink:#111111; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); font-family:Arial,Helvetica,sans-serif; background:var(--cream); }
+main { min-height:100vh; display:grid; place-items:center; padding:28px 16px; }
+.card { width:min(940px,100%); padding:clamp(24px,5vw,48px); border:3px solid var(--ink); border-radius:22px; background:#fffdf8; text-align:center; box-shadow:0 15px 44px #11111120; }
+.logo { display:block; width:min(380px,82vw); height:auto; margin:0 auto 18px; }
+h1 { font-size:clamp(2rem,6vw,4rem); letter-spacing:.04em; line-height:1.08; margin:8px 0 18px; }
+.badge { display:inline-block; padding:10px 22px; border-radius:100px; background:var(--ink); color:var(--cream); font-weight:800; letter-spacing:.08em; }
+.services { margin:25px auto 12px; font-size:clamp(1.1rem,2.5vw,1.4rem); font-weight:700; line-height:1.6; }
+.area { max-width:700px; margin:14px auto; line-height:1.6; }
+.buttons { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin:24px 0; }
+.buttons a { display:inline-block; padding:13px 20px; border:2px solid var(--ink); border-radius:9px; background:var(--ink); color:#fff; font-weight:800; text-decoration:none; }
+.buttons a:hover,.buttons a:focus-visible { background:var(--tan); color:var(--ink); }
+.tag { font-size:1.16rem; font-weight:800; }
+footer { margin-top:22px; font-size:.85rem; line-height:1.5; }
+</style>
 </head>
-
 <body>
-  <main>
-    <section class="card">
-
-      <img class="logo"
-           src="drewitt-logo.png"
-           alt="Drewitt Pest Management and Property Maintenance">
-
-      <h1>STARTING SOON</h1>
-
-      <div class="soon">NOW TAKING ENQUIRIES</div>
-
-      <div class="services">
-        Pest Management &bull; Timber Pest Inspections &bull; Property Maintenance
-      </div>
-
-      <p class="area">
-        Servicing the Hastings &amp; Camden Haven areas, including
-        Port Macquarie, Wauchope, Lake Cathie, Laurieton and surrounding communities.
-      </p>
-
-      <p class="enquiries">
-        Get in touch to discuss your property.
-      </p>
-
-      <div class="buttons">
-        <a href="tel:+61448824578">Call 0448 824 578</a>
-        <a href="mailto:info@drewittpest.com.au">Email Us</a>
-        <a href="https://www.facebook.com/profile.php?id=61594270747493">Facebook</a>
-      </div>
-
-      <p class="tag">Treat the pest. Fix the problem.</p>
-
-      <footer>
-        &copy; 2026 Drewitt Pest Management &amp; Property Maintenance
-      </footer>
-
-    </section>
-  </main>
+<main><section class="card">
+<img class="logo" src="drewitt-logo.png" alt="Drewitt Pest Management and Property Maintenance">
+<h1>OPEN FOR BUSINESS</h1>
+<div class="badge">NOW TAKING BOOKINGS</div>
+<p class="services">General Pest Management &bull; Timber Pest Inspections &bull; Property Maintenance</p>
+<p class="area">Local service across Port Macquarie, Wauchope, Lake Cathie, Laurieton and the Hastings and Camden Haven areas.</p>
+<p class="area">Have a pest problem or a property job to discuss? Get in touch with Scott.</p>
+<div class="buttons">
+<a href="tel:+61448824578">Call 0448 824 578</a>
+<a href="mailto:info@drewittpest.com.au">Email Scott</a>
+<a href="https://www.facebook.com/profile.php?id=61594270747493">Facebook</a>
+</div>
+<p class="tag">Treat the pest. Fix the problem.</p>
+<footer>&copy; 2026 Drewitt Pest Management &amp; Property Maintenance</footer>
+</section></main>
 </body>
 </html>
